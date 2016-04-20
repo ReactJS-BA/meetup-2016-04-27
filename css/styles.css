@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100vh;
+  background: url(../img/buenosaires.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0 0 150px 0;
+}
+
+.overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: #fff;
+  opacity: .5;
+  z-index: 1;
+}
+
+nav,
+.container {
+  position: relative;
+  z-index: 200;
+}
+
+nav .brand-logo {
+  padding: 0 0 0 60px;
+  background: url(../img/react-logo.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: 50px;
+}
+
+nav {
+  background: #3F51B5;
+}
+
+.media {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+/* Draft custom styles */
+
+.DraftEditor-root {
+  margin: 0 0 2em 0;
+}
